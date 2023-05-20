@@ -1,0 +1,175 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.home-body{
+    background-image: url(/images/background-img.jpg);
+}
+
+.container-fluid{
+    padding: 1% 7%;
+}
+
+.colored-section{
+    background-color: #DADBDD;
+    opacity: 0.5;
+    color: black;
+}
+
+.uncolored-section{
+    color: black;
+    padding: 200px;
+}
+
+.uncolored-section p{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.donateBtn{
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+#footer{
+    color: black;
+}
+
+#footer p{
+    margin-bottom: 0;
+}
+
+/*Navigation bar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+
+/*About*/
+
+#about{
+    padding: 100px;
+}
+
+.about-content{
+    background-color: #F8F8FF;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#about p{
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 40px;
+}
+
+.about-heading{
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.main-img{
+    position: relative;
+    color: black;
+}
+
+.main-img p{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 6rem;
+    opacity: 0.4;
+    text-shadow: 0 2px #DADBDD;
+}
+
+.dog-img{
+    width: 100%;
+}
+
+#slideshow .container-fluid{
+    padding: 0 3%;
+}
+
+#slideshow button{
+    color: black;
+}
+
+.donatebtn{
+    margin-bottom: 40px;
+}
+
+#photo-gallery{
+    margin-bottom: 50px;
+}
+
+.about-footer{
+    margin-top: 30px;
+}
+
+/* Contact */
+
+#form{
+    text-align: center;
+}
+
+#form div{
+    background-color: #F8F8FF;
+    margin-top: 40px;
+    padding: 10px 30px 30px 30px;;
+    width: 40%;
+    border-radius: 70px;
+}
+
+#form h2{
+    margin: 50px;
+    font-weight: bold;
+}
+
+.contact-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+@media (max-width: 800px){
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+
+    .uncolored-section p{
+        font-size: 1.5rem;
+        text-align: left;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    .main-img p{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        font-size: 4rem;
+        opacity: 0.4;
+        text-shadow: 0 2px #DADBDD;
+    }
+
+    #form div{
+        width: 60%;
+    }
+}
